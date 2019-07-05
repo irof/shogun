@@ -42,6 +42,7 @@
                 </executions>
                 <configuration>
                     <mainClass>Shogun</mainClass>
+                    <buildArgs>-H:IncludeResources='.*.png$' -H:ReflectionConfigurationFiles=${project.basedir}/reflection-config.json</buildArgs>
                 </configuration>
             </plugin>
             <plugin>
